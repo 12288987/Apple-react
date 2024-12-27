@@ -25,8 +25,12 @@ function Footer() {
       <div className="container hidden">
         <div className="footer row">
           <div className="col-md newborder">
-            <h4 className="1h">Shop and learn</h4>
-            <div className="underline 1d">
+            <div className="slidedisplay">
+              <h4 className="1h mobile">Shop and learn</h4>
+              <i className="fa-solid fa-plus mobile 1h" id="1h"></i>
+            </div>
+            <h4 className="desktop">Shop and learn</h4>
+            <div className="underline 1d desk">
               <div><a href="#">Mac</a></div>
               <div><a href="#">ipad</a></div>
               <div><a href="#">iphone</a></div>
@@ -42,8 +46,12 @@ function Footer() {
           </div>
           <div className="col-md">
             <div className="newborder">
-              <h4 className="2h">Services</h4>
-              <div className="underline 2d">
+              <div className="slidedisplay">
+                <h4 className="2h mobile">Services</h4>
+                <i className="fa-solid fa-plus mobile 2h" id="2h"></i>
+              </div>
+              <h4 className="desktop">Services</h4>
+              <div className="underline 2d desk">
                 <div><a href="#">Apple Music</a></div>
                 <div><a href="#">Apple News+</a></div>
                 <div><a href="#">Apple Tv+</a></div>
@@ -53,8 +61,12 @@ function Footer() {
               </div>
             </div>
             <div className="newborder">
-              <h4 className="3h">Account</h4>
-              <div className="underline 3d">
+              <div className="slidedisplay">
+                <h4 className="3h mobile">Account</h4>
+                <i className="fa-solid fa-plus mobile 3h" id="3h"></i>
+              </div>
+              <h4 className="desktop">Account</h4>
+              <div className="underline 3d desk">
                 <div><a href="#">Manage Your Apple ID</a></div>
                 <div><a href="#">Apple Store Account</a></div>
                 <div><a href="#">iCloud.com</a></div>
@@ -62,8 +74,12 @@ function Footer() {
             </div>
           </div>
           <div className="col-md newborder">
-            <h4 className="4h">Apple Store</h4>
-            <div className="underline 4d">
+            <div className="slidedisplay">
+              <h4 className="4h mobile">Apple Store</h4>
+              <i className="fa-solid fa-plus mobile 4h" id="4h"></i>
+            </div>
+            <h4 className="desktop">Apple Store</h4>
+            <div className="underline 4d desk">
               <div><a href="#">Find a store</a></div>
               <div><a href="#">Genius Bar</a></div>
               <div><a href="#">Today at Apple</a></div>
@@ -79,30 +95,46 @@ function Footer() {
           </div>
           <div className="col-md">
             <div className="newborder">
-              <h4 className="5h">For Business</h4>
-              <div className="underline 5d">
+              <div className="slidedisplay">
+                <h4 className="5h mobile">For Business</h4>
+                <i className="fa-solid fa-plus mobile 5h" id="5h"></i>
+              </div>
+              <h4 className="desktop">For Business</h4>
+              <div className="underline 5d desk">
                 <div><a href="#">Apple and Business</a></div>
                 <div><a href="#">Shop for Business</a></div>
               </div>
             </div>
             <div className="newborder">
-              <h4 className="6h">For Education</h4>
-              <div className="underline 6d">
+              <div className="slidedisplay">
+                <h4 className="6h mobile">For Education</h4>
+                <i className="fa-solid fa-plus mobile 6h" id="6h"></i>
+              </div>
+              <h4 className="desktop">For Education</h4>
+              <div className="underline 6d desk">
                 <div><a href="#">Apple Education</a></div>
                 <div><a href="#">Shop for College</a></div>
               </div>
             </div>
             <div className="newborder">
-              <h4 className="7h">For Healthcare</h4>
-              <div className="underline 7d">
+              <div className="slidedisplay">
+                <h4 className="7h mobile">For Healthcare</h4>
+                <i className="fa-solid fa-plus mobile 7h" id="7h"></i>
+              </div>
+              <h4 className="desktop">For Healthcare</h4>
+              <div className="underline 7d desk">
                 <div><a href="#">Manage Your Apple ID</a></div>
                 <div><a href="#">Apple Store Account</a></div>
                 <div><a href="#">iCloud.com</a></div>
               </div>
             </div>
             <div className="newborder">
-              <h4 className="8h">For Government</h4>
-              <div className="underline 8d">
+              <div className="slidedisplay">
+                <h4 className="8h mobile">For Government</h4>
+                <i className="fa-solid fa-plus mobile 8h" id="8h"></i>
+              </div>
+              <h4 className="desktop">For Government</h4>
+              <div className="underline 8d desk">
                 <div><a href="#">Apple and Education</a></div>
                 <div><a href="#">Shop For College</a></div>
               </div>
@@ -110,8 +142,12 @@ function Footer() {
           </div>
           <div className="col-md">
             <div className="newborder">
-              <h4 className="9h">Apple Values</h4>
-              <div className="underline 9d">
+              <div className="slidedisplay">
+                <h4 className="9h mobile">Apple Values</h4>
+                <i className="fa-solid fa-plus mobile 9h" id="9h"></i>
+              </div>
+              <h4 className="desktop">Apple Values</h4>
+              <div className="underline 9d desk">
                 <div><a href="#">Find a Store</a></div>
                 <div><a href="#">Genius Bar</a></div>
                 <div><a href="#">Today at Apple</a></div>
@@ -121,8 +157,12 @@ function Footer() {
               </div>
             </div>
             <div className="newborder">
-              <h4 className="10h">About Apple</h4>
-              <div className="underline 10d">
+              <div className="slidedisplay">
+                <h4 className="10h mobile">About Apple</h4>
+                <i className="fa-solid fa-plus mobile 10h" id="10h"></i>
+              </div>
+              <h4 className="desktop">About Apple</h4>
+              <div className="underline 10d desk">
                 <div><a href="#">Find a Store</a></div>
                 <div><a href="#">Genius Bar</a></div>
                 <div><a href="#">Today at Apple</a></div>
@@ -143,10 +183,10 @@ function Footer() {
       <hr className="hr" />
       <div className="container">
         <div className="Copyright row">
-          <div className="col-md-5">
+          <div className="col-md-5 order-2 order-sm-1 arights">
             <p>Copyright © 2019 Apple Inc. All rights reserved.</p>
           </div>
-          <div className="col-md">
+          <div className="col-md order-3 order-sm-2">
             <div className="privacy">
               <div>
                 <p>privacy policy</p>
@@ -165,11 +205,8 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div className="col-md-2">
+          <div className="col-md-2 order-1 order-sm-3">
             <div className="flag-country">
-              <div className="flag">
-                <img src={flag} alt="" />
-              </div>
               <div className="country">United States</div>
             </div>
           </div>

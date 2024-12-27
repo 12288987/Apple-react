@@ -8,8 +8,8 @@ function ThirdSection() {
         <p className="just">Just the right amount of everything.</p>
         <p className="money">From $16.62/mo. or $399 with trade-in.</p>
         <div className="all-button">
-          <a href="#">Learn more</a>
-          <a href="#">Buy</a>
+          <a href="#" className="lmore">Learn more</a>
+          <a href="#" className="buy">Buy</a>
         </div>
       </div>
     </section>

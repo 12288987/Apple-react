@@ -8,6 +8,7 @@ import FourthSection from './component/FourthSection'
 import FifthSection from './component/FifthSection'
 import SixthSection from './component/SixthSection'
 import { useEffect } from 'react'
+import MobileSlider from './component/MobileSlider'
 
 function App() {
   useEffect(()=>{
@@ -25,6 +26,7 @@ function App() {
       <FifthSection />
       <SixthSection />
       <Footer />
+      <MobileSlider />
     </>
   )
 }

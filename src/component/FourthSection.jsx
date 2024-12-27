@@ -15,8 +15,8 @@ function FourthSection() {
               </p>
             </div>
             <div className="all-button">
-              <a href="#">Learn more</a>
-              <a href="#">Buy</a>
+              <a href="#" className="lmore">Learn more</a>
+              <a href="#" className="buy">Buy</a>
             </div>
           </div>
         </div>
@@ -27,8 +27,8 @@ function FourthSection() {
               <p>Get 3% Daily Cash on purchases from Apple using Apple Card.</p>
             </div>
             <div className="all-button">
-              <a href="#">Learn more</a>
-              <a href="#">Buy</a>
+              <a href="#" className="lmore">Learn more</a>
+              <a href="#" className="buy">Buy</a>
             </div>
           </div>
         </div>

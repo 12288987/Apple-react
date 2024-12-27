@@ -24,8 +24,8 @@ function FifthSection() {
             <h2>Airpods Pro</h2>
             <p className="magic">Magic like You’ve never heard.</p>
             <div className="all-button">
-              <a href="#">Learn more</a>
-              <a href="#">Buy</a>
+              <a href="#" className="lmore">Learn more</a>
+              <a href="#" className="buy blackBG">Buy</a>
             </div>
             <div className="airMargin">
               <img src={airpods} alt="" />

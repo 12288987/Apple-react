@@ -8,8 +8,8 @@ function SecondSection() {
         <p className="proCameras">pro cameras. pro display. pro performance.</p>
         <p className="money">From $24.95/mo. or $599 with trade-in.</p>
         <div className="all-button">
-          <a href="#">Learn more</a>
-          <a href="#">Buy</a>
+          <a href="#" className="lmore">Learn more</a>
+          <a href="#" className="buy blackBG">Buy</a>
         </div>
       </div>
     </section>

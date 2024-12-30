@@ -206,6 +206,33 @@ footer h4 {
   font-size: 50px;
   font-weight: 700;
 }
+.youtube {
+  max-width: 800px;
+  width: 75%;
+  margin: 10px auto;
+}
+.headY {
+  margin-bottom: 20px;
+}
+.snip {
+  /* width: 30%; */
+  margin-right: 10px;
+  /* height: 100px; */
+}
+.snip img {
+  width: 100%;
+}
+.title {
+  font-weight: 700;
+  font-size: 1em;
+}
+.title a {
+  text-decoration: none;
+  color: black;
+}
+.descr {
+  font-size: 0.8em;
+}
 @media (min-width: 768px) {
   .navv {
     width: 100%;

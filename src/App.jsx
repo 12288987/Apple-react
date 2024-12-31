@@ -10,6 +10,7 @@ import SixthSection from './component/SixthSection'
 import { useEffect } from 'react'
 import MobileSlider from './component/MobileSlider'
 import YoutubeFunctionality from './component/YoutubeFunctionality'
+import Main from './component/Main'
 
 function App() {
   useEffect(()=>{
@@ -20,13 +21,14 @@ function App() {
     <>
       <Header />
       {/* <New /> */}
-      <FirstSection />
+      {/* <FirstSection />
       <SecondSection />
       <ThirdSection />
       <FourthSection />
       <FifthSection />
       <SixthSection />
-      <YoutubeFunctionality />
+      <YoutubeFunctionality /> */}
+      <Main />
       <Footer />
       <MobileSlider />
     </>

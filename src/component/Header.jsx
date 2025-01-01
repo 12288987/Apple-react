@@ -2,9 +2,14 @@ import logo from "../images/icons/logo.png"
 import search from "../images/icons/search-icon.png"
 import cart from "../images/icons/cart.png"
 import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
+import $ from "jquery";
+// import { Navbar } from "react-bootstrap";
 
 function Header() {
+  
   return (
+    <>
     <header className="backGR py-1">
     <div className="container">
       <ul className="row navv">
@@ -29,7 +34,18 @@ function Header() {
         </li>
       </ul>
     </div>
-  </header>
+    </header>
+    <div className="d-md-none sli" id="dropdownMenu">
+      <div>Store</div>
+      <div>Mac</div>
+      <div>ipad</div>
+      <div>iphone</div>
+      <div>Airpod</div>
+      <div>Macbook</div>
+      <div>Watch</div>
+      <div>Tv</div>
+    </div>
+    </>
   )
 }
 

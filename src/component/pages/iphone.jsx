@@ -5,7 +5,8 @@ import './Iphone.css'
 function Iphone() {
   const [products, setProducts] = useState([]);
   useEffect(()=>{
-    fetch("http://localhost:3030/productInfo3").then((res)=> res.json()).then((data)=>{
+    //for deployment the fetch url changed from "http://localhost:3030/productInfo3" to "/iphoneData.json"
+    fetch("/iphoneData.json").then((res)=> res.json()).then((data)=>{
       setProducts(data.products);
     }).catch(()=>console.log("Error: unabel to fetch!!"));
   }, []);

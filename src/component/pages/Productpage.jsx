@@ -8,7 +8,8 @@ function Productpage() {
   // console.log(lastUrl);
 
   useEffect(() => {
-    fetch("http://localhost:3030/productInfo3")
+    //for deployment the fetch url changed from "http://localhost:3030/productInfo3" to "/iphoneData.json"
+    fetch("/iphoneData.json")
       .then((res) => res.json())
       .then((data) => {
         const productlist = data.products;

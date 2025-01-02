@@ -44,7 +44,7 @@ function Iphone() {
                       <div className='links-wrapper'>
                         <ul>
                           <li>
-                            <Link to={`/iphones/${product.product_url}`} className='lmore linkstyle'>
+                            <Link to={`/iphone/${product.product_url}`} className='lmore linkstyle'>
                               Learn more
                             </Link>
                           </li>

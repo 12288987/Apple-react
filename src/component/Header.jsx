@@ -34,8 +34,8 @@ function Header() {
         <li className="col-9 col-md aplogo">
           <Link to="/"><img src={logo} alt="" /></Link>
         </li>
+        <li className="col-md d-none d-md-block"><a href="/iphone/">iPhone</a></li>
         <li className="col-md d-none d-md-block"><a href="/mac/">Mac</a></li>
-        <li className="col-md d-none d-md-block"><a href="/iphone/">iphone</a></li>
         <li className="col-md d-none d-md-block"><a href="#">ipad</a></li>
         <li className="col-md d-none d-md-block"><a href="#">Watch</a></li>
         <li className="col-md d-none d-md-block"><a href="#">Tv</a></li>
@@ -54,10 +54,10 @@ function Header() {
     </div>
     </header>
     <div className="d-md-none sli" id="dropdownMenu">
-      <div>Store</div>
+      <div><a href="/iphone/">iPhone</a></div>
       <div>Mac</div>
       <div>ipad</div>
-      <div>iphone</div>
+      <div>Store</div>
       <div>Airpod</div>
       <div>Macbook</div>
       <div>Watch</div>

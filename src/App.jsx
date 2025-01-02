@@ -39,7 +39,7 @@ function App() {
           <Route path="*" element={<Notfoundpage />} />
         </Route>
       </Routes>
-      <MobileSlider />
+      {/* <MobileSlider /> */}
     </>
   );
 }

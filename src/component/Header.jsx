@@ -7,7 +7,25 @@ import $ from "jquery";
 // import { Navbar } from "react-bootstrap";
 
 function Header() {
-  
+  useEffect(()=>{
+    return () => {
+      let options = $('.op');
+      let slideop = $('.sli');
+
+      options.on('click', function() {
+          if (document.getElementById("op").className === "fa-solid fa-bars op") {
+              document.getElementById("op").className = "fa-solid fa-xmark op";
+              $('section').css('display', 'none');
+              $('footer').css('display', 'none');
+          } else {
+              document.getElementById("op").className = "fa-solid fa-bars op";
+              $('section').css('display', 'block');
+              $('footer').css('display', 'block');
+          };
+          slideop.slideToggle();
+      })
+    }
+  }, [])
   return (
     <>
     <header className="backGR py-1">

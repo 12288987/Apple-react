@@ -1,10 +1,11 @@
 import {useState, useEffect} from 'react'
 
 function YoutubeFunctionality() {
+    const API_KEY = import.meta.env.VITE_API_KEY;
     const [youtubeVideos, setVideos] = useState([]);
     useEffect(()=>{
         fetch(
-            "https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCE_M8A5yxnLfW0KghEeajjw&maxResults=6&order=date&key=[Api-Key]"
+            `https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCE_M8A5yxnLfW0KghEeajjw&maxResults=6&order=date&key=${API_KEY}`
         ).then((response)=>response.json()).then((data)=> {
             const youtubeVideosdata = data.items;
             setVideos(youtubeVideosdata);

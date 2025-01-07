@@ -1,7 +1,7 @@
 import Footer from "./component/Footer";
 import Header from "./component/Header";
 import FirstSection from "./component/FirstSection";
-import New from "./component/newProject/new";
+// import New from "./component/newProject/new";
 import SecondSection from "./component/SecondSection";
 import ThirdSection from "./component/ThirdSection";
 import FourthSection from "./component/FourthSection";

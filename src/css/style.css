@@ -34,6 +34,9 @@ header a {
   text-decoration: none;
   color: white;
 }
+.iphone {
+  color: red !important; 
+}
 .aplogo {
   text-align: start;
   padding-left: 30px;

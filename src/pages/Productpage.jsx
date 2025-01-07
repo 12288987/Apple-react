@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import Notfoundpage from "../Notfoundpage";
+import Notfoundpage from "../component/Notfoundpage";
 
 function Productpage() {
   const [product, setProduct] = useState([]);

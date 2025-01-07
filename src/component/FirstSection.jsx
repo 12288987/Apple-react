@@ -1,4 +1,4 @@
-import macbook from "../images/home/macbook-pro.jpg"
+import macbook from "../assets/images/home/macbook-pro.jpg"
 
 function FirstSection() {
   return (

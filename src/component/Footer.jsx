@@ -1,4 +1,4 @@
-import flag from "../images/icons/16.png"
+import flag from "../assets/images/icons/16.png"
 import { useEffect, useState } from 'react'
 import $ from 'jquery'
 

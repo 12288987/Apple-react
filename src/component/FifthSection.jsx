@@ -1,6 +1,6 @@
-import tv from "../images/icons/apple-tv-logo.png"
-import servant from "../images/icons/servant-logo.png"
-import airpods from "../images/home/air-pods.jpg"
+import tv from "../assets/images/icons/apple-tv-logo.png"
+import servant from "../assets/images/icons/servant-logo.png"
+import airpods from "../assets/images/home/air-pods.jpg"
 
 function FifthSection() {
   return (

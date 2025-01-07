@@ -11,14 +11,14 @@ import { useEffect } from "react";
 import MobileSlider from "./component/MobileSlider";
 import YoutubeFunctionality from "./component/YoutubeFunctionality";
 import Main from "./component/Main";
-import Iphone from "./component/pages/Iphone";
-import Mac from "./component/pages/Mac";
 import { Route, Routes } from "react-router-dom";
-import Search from "./component/pages/Search";
-import Cart from "./component/pages/Cart";
+import Cart from "./pages/Cart";
 import SharedElement from "./component/SharedElement";
 import Notfoundpage from "./component/Notfoundpage";
-import Productpage from "./component/pages/Productpage";
+import Productpage from "./pages/Productpage";
+import Iphone from "./pages/iphone";
+import Mac from "./pages/Mac";
+import Search from "./pages/Search";
 
 function App() {
   useEffect(() => {

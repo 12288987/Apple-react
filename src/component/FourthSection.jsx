@@ -1,5 +1,5 @@
-import watch from "../images/icons/watch-series5-logo.png"
-import card from "../images/icons/apple-card-logo.png"
+import watch from "../assets/images/icons/watch-series5-logo.png"
+import card from "../assets/images/icons/apple-card-logo.png"
 
 function FourthSection() {
   return (

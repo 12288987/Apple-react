@@ -1,6 +1,6 @@
-import logo from "../images/icons/logo.png"
-import search from "../images/icons/search-icon.png"
-import cart from "../images/icons/cart.png"
+import logo from "../assets/images/icons/logo.png"
+import search from "../assets/images/icons/search-icon.png"
+import cart from "../assets/images/icons/cart.png"
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import $ from "jquery";

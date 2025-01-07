@@ -1,5 +1,5 @@
-import laptop from "../images/home/mac-laptop.jpg"
-import ipad from "../images/icons/new-ipad-logo.png"
+import laptop from "../assets/images/home/mac-laptop.jpg"
+import ipad from "../assets/images/icons/new-ipad-logo.png"
 
 function SixthSection() {
   return (
